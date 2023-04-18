@@ -3,8 +3,6 @@ package milos.bogdanovic;
 import java.util.Scanner;
 
 public class Trougao {
-
-// izracunavanje
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Unesite stranicu trougla x: ");
