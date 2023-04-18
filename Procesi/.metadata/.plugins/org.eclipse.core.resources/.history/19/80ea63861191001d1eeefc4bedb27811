@@ -1,0 +1,17 @@
+package milosbogdanovic;
+
+// Novu nit pokrecete tako sto napravite instancu objekta tipa Thread
+// To se moze uraditi na dva nacina
+// I Nacin: Implementacija interfejsa Runnable *
+// II Nacin: Prosirivanjem klase Thread
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	}
+
+}

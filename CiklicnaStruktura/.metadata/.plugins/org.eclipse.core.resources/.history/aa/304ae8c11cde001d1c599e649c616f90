@@ -1,0 +1,20 @@
+package milosbogdanovic;
+
+public class WhilePetlja02 {
+    
+    public static void main(String[] args) {
+    // Koliko se puta izvrsava naredba while u zadatim slucajevima
+
+    int i = 0;
+
+    while (++i < 5) {
+        System.out.println(i);
+    } // Izvrsava se 4 puta
+
+    i = 0;
+    while (i++ < 5) {
+        System.out.println(i);
+    } // Izvrsava se 5 puta
+    }
+
+}

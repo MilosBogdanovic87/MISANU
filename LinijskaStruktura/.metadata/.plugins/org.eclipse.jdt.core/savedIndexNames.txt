@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Hp\Desktop\Projekti\LinijskaStruktura\.metadata\.plugins\org.eclipse.jdt.core
+1478657613.index
+1865797976.index
+3612540257.index

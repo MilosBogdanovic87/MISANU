@@ -1,0 +1,23 @@
+package milosbogdanovic;
+
+public class A extends Thread{
+	
+	public void run() {
+		
+		int i = 1;
+		while (i <= 10) {
+			System.out.println("i: " + i);
+			
+			// sleep(vrednostUMilisekundama) - privremeno zaustavlja ondosno suspenduje izvrsavanje niti
+			
+			try {
+				Thread.sleep(150);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			i++;
+		}
+	}
+
+}

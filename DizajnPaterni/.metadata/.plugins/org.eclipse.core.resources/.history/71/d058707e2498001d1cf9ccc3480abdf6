@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 5;
+		
+		double b = 3.2;
+		
+		String ime;
+		
+		a = 10;
+		b += 15;
+		
+		ime = "Ana";
+		
+		b = b + 9;
+		a = 35;
+		
+		ime = "Hana";
+		
+		
+
+	}
+
+}

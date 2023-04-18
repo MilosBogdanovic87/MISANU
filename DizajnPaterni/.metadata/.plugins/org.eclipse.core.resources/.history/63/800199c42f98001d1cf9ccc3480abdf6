@@ -1,0 +1,19 @@
+package milosbogdanovic;
+
+public class Main {
+	
+	// ordinal() - dobija redni broj tj. polozaj date konstante na listi konstanti u nabrajanju. Redni brojevi pocinju od 0.
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Boja - redni broj");
+		
+		for(Boje bb : Boje.values()) {
+			System.out.println(bb + " " + bb.ordinal());
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package milos.bogdanovic;
+
+
+
+public class Cat {
+	
+	
+	
+	String macka;
+	
+	public String Cat()
+	{
+		System.out.println("Naziv macke " + macka);
+		return macka;
+	}
+
+}

@@ -1,0 +1,20 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Thread t = Thread.currentThread();
+		
+		System.out.println("Trenutna nit: " + t);
+
+		// getName() - vraca ime niti
+		System.out.println("Ime niti: " +  Thread.currentThread().getName());
+		
+		// getPriority - vraca prioritet niti
+		System.out.println("Prioritet niti: " +  Thread.currentThread().getPriority());
+ 		
+	}
+
+}

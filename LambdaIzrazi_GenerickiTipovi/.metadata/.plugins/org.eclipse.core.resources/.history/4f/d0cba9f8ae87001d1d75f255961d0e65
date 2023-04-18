@@ -1,0 +1,20 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		A<Integer, String> ob = new A<Integer, String>(100, "Proba");
+		
+		ob.prikaziTip();
+		
+		int intVrednost = ob.getOb1();
+		System.out.println("Vrednost T je: " + intVrednost);
+		
+		
+		
+
+	}
+
+}

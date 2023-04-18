@@ -1,0 +1,18 @@
+package milosbogdanovic;
+
+public class ForPetlja12 {
+
+	public static void main(String[] args) {
+		// Napisati program koji prebrojava brojeve od 1 .. 20 koji su deljivi brojem 3.
+		int brojac = 0;
+		// Unos podataka
+		for (int i = 1; i <= 20; i++) {
+			if (i % 3 == 0) {
+				brojac++;
+			}
+		}
+		System.out.println("Izmedju 1 i 20 ima " + brojac + " brojeva deljivih sa brojem 3.");
+
+	}
+
+}

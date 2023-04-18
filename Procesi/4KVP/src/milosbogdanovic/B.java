@@ -1,0 +1,22 @@
+package milosbogdanovic;
+
+public class B extends Thread{
+
+	B(String t){
+		super(t); 
+	}
+	
+	int a, b, c;
+	
+	
+	public void run() {
+		
+		a = 3;
+		b = 4;
+		c = a * b;
+		for(int i = 1; i <= 5; i++) {
+			System.out.println("Rezultat je: " + c);
+		}
+}
+	
+}

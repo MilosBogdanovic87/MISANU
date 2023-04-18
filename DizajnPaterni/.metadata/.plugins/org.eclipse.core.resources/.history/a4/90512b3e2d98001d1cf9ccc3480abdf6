@@ -1,0 +1,16 @@
+package milosbogdanovic;
+
+// Nabrajanje je vrsta klase. Instanca klase ne pravi se pomocu kljucne reci new
+// Rezervisana rec Enum definise klasu
+// Svaka konstanta definisana u nabrajanju je zapravo objekat ciji tip je to isto nabrajanje
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

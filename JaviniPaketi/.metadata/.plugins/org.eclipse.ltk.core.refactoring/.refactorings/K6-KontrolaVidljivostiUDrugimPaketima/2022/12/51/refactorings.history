@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;p1&apos; to &apos;K6-KontrolaVidljivostiUDrugimPaketima/src/p1&apos;&#x0D;&#x0A;- Original project: &apos;K6-KontrolaVidljivostiUDrugimPaketima&apos;&#x0D;&#x0A;- Destination element: &apos;K6-KontrolaVidljivostiUDrugimPaketima/src/p1&apos;&#x0D;&#x0A;- Original element: &apos;K6-KontrolaVidljivostiUDrugimPaketima/src/p1&apos;" description="Copy package" destination="/src&lt;p1" element1="/src&lt;p1" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1670954525090" version="1.0"/>
+</session>

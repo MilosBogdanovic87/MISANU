@@ -1,0 +1,24 @@
+package milosbogdanovic;
+
+// Nabrajenje je lista imenovanih vrednosti koje definisu nov tip podataka i njegove dozvoljene vrednosti
+// To znaci da nabrajanje moze da sadrzi samo neku od vrednosti koje su navedene na listi. Druge vrednosti nisu dozvoljene
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Boje b; // int a;
+		
+		b = Boje.Crvena; // a = 5;
+		
+		System.out.println("Boja je: " + b);
+		
+		if(b == Boje.Plava)
+		
+		
+
+	}
+
+}

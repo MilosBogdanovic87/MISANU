@@ -1,0 +1,17 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// isAlive() - da li se metoda jos izvrsava
+		// join()	- ceka da se prva nit zavrsi
+		
+		A a1 = new A("Prva nit");
+		System.out.println("Prva nit se izvrsava " + a1.t.isAlive() );
+		
+		
+	}
+
+}

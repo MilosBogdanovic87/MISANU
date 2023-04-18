@@ -1,0 +1,18 @@
+package milos.bogdanovic;
+
+import java.util.Scanner;
+
+public class Skener {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Unesite ime: ");
+
+		String userName = scanner.nextLine();
+		System.out.println("Unesite broj godina: ");
+		int brojGodina = scanner.nextInt();
+		System.out.println("Ime: " + userName + "\n" + "Broj godina: " + brojGodina);
+
+	}
+
+}

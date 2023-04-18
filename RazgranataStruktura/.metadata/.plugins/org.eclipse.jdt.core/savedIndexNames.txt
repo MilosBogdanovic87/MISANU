@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Hp\Desktop\Projekti\RazgranataStruktura\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3612540257.index
+223016196.index

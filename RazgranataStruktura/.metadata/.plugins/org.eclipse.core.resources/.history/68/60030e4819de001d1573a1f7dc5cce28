@@ -1,0 +1,26 @@
+package milosbogdanovic;
+
+import java.util.Scanner;
+
+public class Aaa {
+    public static void main(String[] args) {
+    /* Deklarisanje promenljivih */ double x, y;
+    Scanner sc = new Scanner(System.in);
+
+    /* Unos podataka x i y */ System.out.println("Unesite vrednost za x: ");
+    x = sc.nextDouble();
+
+    /* Razgranata struktura */
+    if (x < 0) {
+        y = -1;
+    } else if (x == 0) {
+        y = 0;
+    } else {
+        y = +1;
+    }
+
+    /* Štampanje izlaznog rezultata */
+    System.out.println("Vrednost funkcije y je " + y);
+    sc.close();
+    }
+}

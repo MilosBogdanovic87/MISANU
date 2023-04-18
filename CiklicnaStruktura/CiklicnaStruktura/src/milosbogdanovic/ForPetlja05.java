@@ -1,0 +1,16 @@
+package milosbogdanovic;
+
+public class ForPetlja05 {
+
+	public static void main(String[] args) {
+		// Deklarisanje promenljivih
+		int i;
+
+		// Obrada podataka
+		for (i = 15; i <= 26; i++) {
+			System.out.println("Kvadrat broja " + i + " je " + (int) (Math.pow(i, 2)));
+		}
+
+	}
+
+}

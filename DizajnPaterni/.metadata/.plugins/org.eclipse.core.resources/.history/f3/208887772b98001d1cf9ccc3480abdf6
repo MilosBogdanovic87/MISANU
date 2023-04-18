@@ -1,0 +1,24 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Sva nabrajanja imaju dve unapred definisane metode:
+		// values() - vraca niz koji sadrzi listu konstanti definisanih u nabrajanju
+		// valuesOf() - vraca konstantu iz nabrajanja cija vrednost odgovara znakovnom nizu prosledjenom u argumentu
+		
+		Boje b;
+		
+		System.out.println("Boje: " );
+		
+		Boje nizBoja[] = Boje.values();
+		
+		for(Boje bb : nizBoja) {
+			System.out.print(bb + " ");
+		}
+
+	}
+
+}

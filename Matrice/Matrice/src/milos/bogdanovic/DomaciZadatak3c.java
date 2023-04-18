@@ -1,0 +1,49 @@
+package milos.bogdanovic;
+
+import java.util.Scanner;
+
+public class DomaciZadatak3c {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Unesite koliko redova zelite: ");
+		int red = sc.nextInt();
+		System.out.print("Unesite koliko kolona zelite: ");
+		int kolona = sc.nextInt();
+
+		int niz[][] = new int[red][kolona];
+
+		System.out.println("Unesite clanove dvodimenzionalnog niza: ");
+		for (int i = 0; i < red; i++) {
+			for (int j = 0; j < kolona; j++) {
+				System.out.print("niz[" + i + ", " + j + "]= ");
+				niz[i][j] = sc.nextInt();
+			}
+			System.out.println();
+		}
+
+		System.out.println("Clanovi dvodimenzionalnog niza su: ");
+		for (int i = 0; i < red; i++) {
+			for (int j = 0; j < kolona; j++) {
+				System.out.print(niz[i][j] + "\t ");
+			}
+			System.out.println();
+		}
+
+		System.out.println("Clanovi dvodimenzionalnog niza sa parnim indeksima kolona su: ");
+		for (int i = 0; i < red; i++) {
+			for (int j = 0; j < kolona; j++) {
+				if ((j + 1) % 2 == 0) // parni indeksi kolona
+					System.out.print(niz[i][j] + "\t ");
+				else
+					System.out.print(" ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}

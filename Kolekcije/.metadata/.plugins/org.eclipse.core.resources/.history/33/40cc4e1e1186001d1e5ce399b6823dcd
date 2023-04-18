@@ -1,0 +1,37 @@
+package milosbogdanovic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> kolekcija = new ArrayList<String>();
+		
+		// size() - vraca broj elemenata smestenih u kolekciju ArrayList
+		
+		System.out.println("Pocetna duzina: " + kolekcija.size());
+		
+		// add() - dodaje element na kraj kolekcije;
+		kolekcija.add("Prvi");
+		kolekcija.add("Drugi");
+		kolekcija.add("Treci");
+		kolekcija.add("Cetvrti");
+		
+		// prolazak kroz kolekciju
+		for(String s : kolekcija)
+			System.out.print(s + " ");
+
+		System.out.println("\nTrenutna duzina: " + kolekcija.size());
+		
+		// provera da li se neki zadati element koristi unutar kolekcije
+		// contains - vraca true ako kolekcija sadrzi trazeni element ili false ako ne sadzri trazeni element
+		
+		boolean sadrzi = kolekcija.contains("Treci");
+		System.out.println(sadrzi);
+		
+	}
+
+}

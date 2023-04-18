@@ -1,0 +1,31 @@
+package milosbogdanovic;
+
+import java.util.Scanner;
+
+public class ForPetlja15 {
+
+	public static void main(String[] args) {
+		// 1. Inicijalizacija promenljivih
+		int negativni = 0, pozitivni = 0, nule = 0;
+
+		Scanner ulaz = new Scanner(System.in);
+
+		// 2. Obrada podataka primenom for petlje
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Unesite " + i + ". broj: ");
+			double j = ulaz.nextDouble();
+			if (j == 0) {
+				nule++;
+			} else if (j > 0) {
+				pozitivni++;
+			} else {
+				negativni++;
+			}
+
+		}
+		// 3. Stampanje izlaznog rezultata
+		System.out.println("Pozitivni brojevi: " + pozitivni + "\nNegativni brojeva: " + negativni + "\nNule: " + nule);
+		ulaz.close();
+	}
+
+}

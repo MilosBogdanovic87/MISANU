@@ -1,0 +1,20 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		TestBroj deljivost = (int i, int d) -> (i % d) == 0;
+		
+		if(deljivost.test(10, 3)){
+			System.out.println("Deljiv!");
+		}
+		else 
+		{
+			System.out.println("Nije deljiv");
+		}
+		
+	}
+
+}

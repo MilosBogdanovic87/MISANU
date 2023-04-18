@@ -1,0 +1,17 @@
+package milos.bogdanovic;
+
+public class Knjiga {
+	
+	String ime;
+	int brojStrana;
+	
+	public void imeKnjige() {
+		System.out.println("Ime knjige: " + this.ime);
+		System.out.println("Broj strana: " + this.brojStrana);
+	}
+	
+	public void brojStrana() {
+		System.out.println("Broj strana: " + this.brojStrana);
+	}
+
+}

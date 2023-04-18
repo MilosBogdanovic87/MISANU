@@ -1,0 +1,15 @@
+package milosbogdanovic;
+
+public class Krug extends Oblik {
+	
+	double poluprecnik;
+	
+	public Krug(double poluprecnik) {
+		this.poluprecnik = poluprecnik;
+	}
+	
+	public  double povrsina() {
+		return poluprecnik * poluprecnik * 3.14;
+	}
+
+}

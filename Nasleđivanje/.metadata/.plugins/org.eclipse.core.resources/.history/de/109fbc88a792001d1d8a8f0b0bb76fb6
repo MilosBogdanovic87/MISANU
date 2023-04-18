@@ -1,0 +1,17 @@
+package milosbogdanovic;
+
+public class Pravugaonik extends Oblik {
+
+	double duzina;
+	double sirina;
+	
+	public Pravugaonik(double s, double d) {
+		duzina = d;
+		sirina = s;
+	}
+	
+	public double uzmiPovrsinu() {
+		return duzina * sirina;
+	}
+	
+}

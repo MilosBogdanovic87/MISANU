@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\bogda\Desktop\MISANU\WS - SVI\15122022\.metadata\.plugins\org.eclipse.jdt.core
+1419656793.index
+831467561.index
+1405612802.index
+2843707086.index
+2860864096.index
+1865797976.index
+3077804112.index
+3269285627.index
+1056131252.index
+2090460470.index
+3202572247.index
+3827530218.index

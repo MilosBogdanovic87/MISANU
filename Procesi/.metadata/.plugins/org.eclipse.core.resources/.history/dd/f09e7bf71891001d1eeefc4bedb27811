@@ -1,0 +1,18 @@
+package milosbogdanovic;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		A a = new A("Proba1");
+		B b = new B("Proba2");
+		C c = new C("Proba3");
+		
+		a.start();
+		b.start();
+		c.start();
+
+	}
+
+}

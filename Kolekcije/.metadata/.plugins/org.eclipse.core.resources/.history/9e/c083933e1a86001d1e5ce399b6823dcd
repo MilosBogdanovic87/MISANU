@@ -1,0 +1,20 @@
+package milosbogdanovic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String imena[] = {"MIka", "Zika", "Ana", "Lana", "Hana", "Una"};
+		
+		List<String> listaImena = new ArrayList<String>();
+		
+		for(String s : imena)
+			System.out.println(s);
+
+	}
+
+}

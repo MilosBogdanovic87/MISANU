@@ -1,0 +1,9 @@
+package milosbogdanovic;
+
+// Nit se moze napraviti za svaki objekat koji implementiira intefejs runnable
+
+public class A implements Runnable {
+
+		
+
+}
